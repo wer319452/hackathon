@@ -2,7 +2,7 @@ from keras.models import load_model
 from PIL import Image, ImageOps
 import numpy as np
 
-def big_5_classification(image, model):
+def first_classification(image, model):
     # Load the model
     model = load_model(model)
 
